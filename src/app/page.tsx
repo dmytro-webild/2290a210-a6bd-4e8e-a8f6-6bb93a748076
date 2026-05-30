@@ -45,8 +45,8 @@ export default function LandingPage() {
       button={{
         text: "Rezervasyon Yap",        href: "#contact"}}
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=tepa2w"
-      logoAlt="Ninja Antwerp Logo"
-      brandName="Ninja Antwerp"
+      logoAlt="Döner Palace Logo"
+      brandName="Döner Palace"
     />
   </div>
 
@@ -54,35 +54,27 @@ export default function LandingPage() {
       <HeroSplitDoubleCarousel
       background={{
         variant: "plain"}}
-      title="Ninja Antwerp'e Hoş Geldiniz"
-      description="Antwerp'in kalbinde otantik Japon mutfağının eşsiz lezzetlerini keşfedin. Taze malzemelerle hazırlanan sushi, ramen ve geleneksel yemeklerle damaklarınızı şenlendirin."
+      title="Lezzetli Dönerin Adresi: Döner Palace"
+      description="Antwerp'in en iyi et ve tavuk döneri için Döner Palace'a hoş geldiniz. Her lokmada geleneksel lezzet, taptaze malzemeler."
       leftCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/man-cooks-healthy-meal-rustic-table-decorate-with-mint-leaf-two-raw-pieces-salmon-white-wine-sause-with-spices-herbs-presented-marble-deck-prepared-grill_346278-812.jpg",          imageAlt: "Gourmet Sushi Tabağı"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg",          imageAlt: "Et Döner"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/assortment-noodles-table_23-2148803808.jpg",          imageAlt: "Lezzetli Ramen Kasesi"},
+          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg",          imageAlt: "Tavuk Döner"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/rustic-deck-with-patio-furniture-vegetation_23-2150698372.jpg",          imageAlt: "Kıtır Tempura Karides"},
+          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg",          imageAlt: "Döner Dürüm"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-cups-bottle-arrangement_23-2149706090.jpg",          imageAlt: "Izgara Yakitori Şişler"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/view-raw-fish-plate_23-2148862986.jpg",          imageAlt: "Udon Erişte Kasesi"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-delicious-healthy-food_23-2148648571.jpg",          imageAlt: "Edamame Atıştırmalık"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg",          imageAlt: "Döner Tabak"},
       ]}
       rightCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/male-hand-taking-sushi-roll-with-chopsticks-from-white-plate_114579-65927.jpg",          imageAlt: "Edamame Atıştırmalık"},
+          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg",          imageAlt: "Döner Dürüm"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-as-professional-chef_23-2151864181.jpg",          imageAlt: "Udon Erişte Kasesi"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg",          imageAlt: "Et Döner"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/japanese-cups-bottle-arrangement_23-2149706082.jpg",          imageAlt: "Izgara Yakitori Şişler"},
+          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg",          imageAlt: "Tavuk Döner"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/preparing-sake-japanese-beverage_23-2150158617.jpg",          imageAlt: "Kıtır Tempura Karides"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/fresh-sashimi-fish_74190-1873.jpg",          imageAlt: "Lezzetli Ramen Kasesi"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-ramen-with-chopsticks_23-2150606745.jpg",          imageAlt: "Gourmet Sushi Tabağı"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg",          imageAlt: "Döner Tabak"},
       ]}
       buttons={[
         {
@@ -105,15 +97,15 @@ export default function LandingPage() {
       avatarText="100+ Mutlu Müşteri Yorumu"
       marqueeItems={[
         {
-          type: "text",          text: "Antwerp'in En İyi Japon Restoranı"},
+          type: "text",          text: "Antwerp'in En İyi Dönercisi"},
         {
-          type: "text",          text: "Taze Sushi ve Sashimi"},
+          type: "text",          text: "Taptaze Et Döner"},
         {
-          type: "text",          text: "Geleneksel Ramen Lezzetleri"},
+          type: "text",          text: "Lezzetli Tavuk Döner"},
         {
-          type: "text",          text: "Mükemmel Servis, Harika Atmosfer"},
+          type: "text",          text: "Geleneksel Türk Lezzetleri"},
         {
-          type: "text",          text: "Ninja Antwerp Deneyimi"},
+          type: "text",          text: "Döner Palace Deneyimi"},
       ]}
     />
   </div>
@@ -123,7 +115,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",          content: "Ninja Antwerp: Lezzetin ve Geleneğin Buluştuğu Yer"},
+          type: "text",          content: "Döner Palace: Geleneksel Döner Lezzetinin Yeni Adresi"},
       ]}
       buttons={[
         {
@@ -140,16 +132,16 @@ export default function LandingPage() {
       features={[
         {
           icon: Award,
-          title: "Taze Sushi & Sashimi",          description: "Usta şeflerimiz tarafından günlük olarak hazırlanan el yapımı sushi ve sashimi çeşitleri."},
-        {
-          icon: Home,
-          title: "Geleneksel Ramen",          description: "Zengin ve aromatik et suyunda pişirilmiş, doyurucu ve lezzetli ramen kaseleri."},
+          title: "Gerçek Et Döner",          description: "Özel soslarımızla marine edilmiş, odun ateşinde pişirilmiş %100 dana veya kuzu etinden döner."},
         {
           icon: Flame,
-          title: "Özel Şef Menüleri",          description: "Deneyimli şefimizin yaratıcı dokunuşlarıyla hazırladığı benzersiz tadım menüleri."},
+          title: "Nefis Tavuk Döner",          description: "Taptaze tavuk göğsünden hazırlanan, hafif ve lezzetli döner çeşitleri."},
+        {
+          icon: Home,
+          title: "Günlük Taze Malzemeler",          description: "Her gün özenle seçilen taze sebzeler ve günlük hazırlanan pidelerle servis edilir."},
       ]}
-      title="Öne Çıkan Lezzetlerimiz"
-      description="Ninja Antwerp'in ustalıkla hazırladığı, taze ve kaliteli malzemelerle yaratılan özel lezzetleri keşfedin."
+      title="Döner Palace Farkı"
+      description="Sadece en kaliteli et ve tavuk döneri sunuyoruz, her zaman taze ve özenle hazırlanmış."
     />
   </div>
 
@@ -161,26 +153,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          brand: "Ninja Antwerp",          name: "Deluxe Sushi Tabağı",          price: "€45.00",          rating: 5,
-          reviewCount: "120",          imageSrc: "http://img.b2bpic.net/free-photo/sushi-plate-with-various-filling_140725-4210.jpg",          imageAlt: "Deluxe Sushi Tabağı"},
+          id: "p1",          brand: "Döner Palace",          name: "Et Döner Porsiyon",          price: "€15.00",          rating: 5,
+          reviewCount: "120",          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg",          imageAlt: "Et Döner Porsiyon"},
         {
-          id: "p2",          brand: "Ninja Antwerp",          name: "Tonkotsu Ramen",          price: "€18.50",          rating: 4,
-          reviewCount: "85",          imageSrc: "http://img.b2bpic.net/free-photo/steaming-bowl-ramen_23-2151950855.jpg",          imageAlt: "Tonkotsu Ramen Kasesi"},
+          id: "p2",          brand: "Döner Palace",          name: "Tavuk Döner Porsiyon",          price: "€13.00",          rating: 4,
+          reviewCount: "85",          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg",          imageAlt: "Tavuk Döner Porsiyon"},
         {
-          id: "p3",          brand: "Ninja Antwerp",          name: "Karides Tempura",          price: "€22.00",          rating: 5,
-          reviewCount: "95",          imageSrc: "http://img.b2bpic.net/free-photo/side-view-king-prawn-glasses-shots_140725-11981.jpg",          imageAlt: "Karides Tempura"},
+          id: "p3",          brand: "Döner Palace",          name: "Et Döner Dürüm",          price: "€12.00",          rating: 5,
+          reviewCount: "95",          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg",          imageAlt: "Et Döner Dürüm"},
         {
-          id: "p4",          brand: "Ninja Antwerp",          name: "Izgara Wagyu Biftek",          price: "€55.00",          rating: 5,
-          reviewCount: "70",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-japanese-meal-composition_23-2148809881.jpg",          imageAlt: "Izgara Wagyu Biftek"},
-        {
-          id: "p5",          brand: "Ninja Antwerp",          name: "Baharatlı Ton Balığı Roll",          price: "€16.00",          rating: 4,
-          reviewCount: "60",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-fried-sushi-with-red-fish-with-wasabi-ginger-plate_141793-11288.jpg",          imageAlt: "Baharatlı Ton Balığı Roll"},
-        {
-          id: "p6",          brand: "Ninja Antwerp",          name: "Sebzeli Gyoza",          price: "€12.00",          rating: 4,
-          reviewCount: "45",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-traditional-asian-dumplings-with-meat-vegetables-served-with-soy-sauce-plate-rustic-table_141793-8476.jpg",          imageAlt: "Sebzeli Gyoza"},
+          id: "p4",          brand: "Döner Palace",          name: "Tavuk Döner Dürüm",          price: "€10.00",          rating: 5,
+          reviewCount: "70",          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg",          imageAlt: "Tavuk Döner Dürüm"},
       ]}
-      title="Menümüz"
-      description="Usta şeflerimiz tarafından özenle hazırlanan geniş menü seçeneklerimizi keşfedin."
+      title="Menümüz: Et ve Tavuk Döner"
+      description="Sadece iki çeşit dönerimiz var, ama her biri damaklarda iz bırakacak lezzette."
     />
   </div>
 
@@ -192,23 +178,23 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",          name: "Elif Yılmaz",          role: "Gastronomi Bloğu Yazarı",          company: "Lezzet Rehberi",          rating: 5,
+          id: "t1",          name: "Elif Yılmaz",          role: "Döner Bloğu Yazarı",          company: "Lezzet Notları",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-taking-selfie_23-2149250087.jpg",          imageAlt: "Elif Yılmaz"},
         {
-          id: "t2",          name: "Can Demir",          role: "Yemek Eleştirmeni",          company: "Şehir Gurmesi",          rating: 5,
+          id: "t2",          name: "Can Demir",          role: "Yemek Uzmanı",          company: "Döner Tutkunu",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-women-with-delicious-food_23-2149250117.jpg",          imageAlt: "Can Demir"},
         {
-          id: "t3",          name: "Ayşe Kaya",          role: "Seyahat Influencer'ı",          company: "Dünya Lezzetleri",          rating: 5,
+          id: "t3",          name: "Ayşe Kaya",          role: "Yerel Gurme",          company: "Şehir Lezzetleri",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-holding-toast-while-enjoying-lunch-with-her-friends-home_637285-5886.jpg",          imageAlt: "Ayşe Kaya"},
         {
-          id: "t4",          name: "Mehmet Ali",          role: "Yazar",          company: "Gurme Notları",          rating: 5,
+          id: "t4",          name: "Mehmet Ali",          role: "Lezzet Avcısı",          company: "Gurme Deneyimleri",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/happy-african-american-couple-talking-while-having-meal-dining-table_637285-12645.jpg",          imageAlt: "Mehmet Ali"},
         {
-          id: "t5",          name: "Zeynep Arslan",          role: "Dijital Pazarlamacı",          company: "Sosyal Lezzetler",          rating: 5,
+          id: "t5",          name: "Zeynep Arslan",          role: "Sosyal Medya Gurmesi",          company: "Döner Paylaşımları",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/sushi-near-soy-sauce-teapot_23-2147773628.jpg",          imageAlt: "Zeynep Arslan"},
       ]}
-      title="Müşterilerimiz Ne Diyor?"
-      description="Ninja Antwerp'te unutulmaz bir deneyim yaşayan misafirlerimizin yorumlarını okuyun."
+      title="Müşterilerimiz Dönerlerimiz Hakkında Ne Diyor?"
+      description="Döner Palace'ın lezzetlerini tadan misafirlerimizin yorumlarını okuyun."
     />
   </div>
 
@@ -219,20 +205,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       groups={[
         {
-          id: "g1",          groupTitle: "Ninja Antwerp Ekibi",          members: [
+          id: "g1",          groupTitle: "Döner Palace Ekibi",          members: [
             {
-              id: "m1",              title: "Chef Hiroshi Tanaka",              subtitle: "Baş Şef & Kurucu",              detail: "Japon mutfağının inceliklerini Antwerp'e taşıyan usta şefimiz.",              imageSrc: "http://img.b2bpic.net/free-photo/candy-girl-kitchen_1150-10020.jpg",              imageAlt: "Chef Hiroshi Tanaka"},
+              id: "m1",              title: "Usta Dönerci Ahmet Bey",              subtitle: "Baş Döner Şefi & Kurucu",              detail: "Yılların deneyimiyle en lezzetli et döneri hazırlayan usta şefimiz.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-chef-uniform_23-2148710321.jpg",              imageAlt: "Usta Dönerci Ahmet Bey"},
             {
-              id: "m2",              title: "Ayaka Sato",              subtitle: "Restoran Müdürü",              detail: "Misafirlerimize kusursuz bir deneyim sunmak için titizlikle çalışan yöneticimiz.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-serious-man-with-beard-restaurant_1262-3602.jpg",              imageAlt: "Ayaka Sato"},
+              id: "m2",              title: "Zeynep Hanım",              subtitle: "Restoran Müdürü",              detail: "Misafirlerimize sıcak ve hızlı hizmet sunmak için çalışan yöneticimiz.",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-posing-indoors_23-2151038676.jpg",              imageAlt: "Zeynep Hanım"},
             {
-              id: "m3",              title: "Kenji Nakamura",              subtitle: "Sushi Şefi",              detail: "En taze deniz ürünleriyle sanat eseri sushi'ler yaratan yetenekli şefimiz.",              imageSrc: "http://img.b2bpic.net/free-photo/man-preparing-sushi-order-takeaway_23-2149050373.jpg",              imageAlt: "Kenji Nakamura"},
+              id: "m3",              title: "Murat Bey",              subtitle: "Tavuk Döner Ustası",              detail: "Taptaze tavuk döneri özenle hazırlayan genç ve yetenekli ustamız.",              imageSrc: "http://img.b2bpic.net/free-photo/man-cooking-grilled-chicken_23-2149591963.jpg",              imageAlt: "Murat Bey"},
             {
-              id: "m4",              title: "Sophie Dubois",              subtitle: "Servis Yöneticisi",              detail: "Sıcakkanlı ve profesyonel ekibimizin lideri, her zaman gülümseyerek hizmetinizde.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-waiter-holding-plates-with-food-looking-camera-while-working-pub_637285-2415.jpg",              imageAlt: "Sophie Dubois"},
+              id: "m4",              title: "Fatma Hanım",              subtitle: "Müşteri İlişkileri",              detail: "Güleryüzlü ekibimizin bir parçası, her zaman misafir memnuniyetine odaklı.",              imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-working-restaurant_23-2150935579.jpg",              imageAlt: "Fatma Hanım"},
           ]
         },
       ]}
-      title="Ekibimiz"
-      description="Ninja Antwerp'i unutulmaz kılan, tutku ve adanmışlıkla çalışan ekibimizle tanışın."
+      title="Döner Sarayının Usta Elleri"
+      description="Döner Palace'ın lezzet sırrını oluşturan, tutkuyla çalışan ekibimizle tanışın."
     />
   </div>
 
@@ -242,8 +228,8 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       tag="İletişim"
-      title="Rezervasyon ve Bilgi İçin"
-      description="Unutulmaz bir Japon mutfağı deneyimi için hemen yerinizi ayırtın veya sorularınız için bize ulaşın."
+      title="Lezzet Durağımızda Yer Ayırtın"
+      description="En taze dönerlerimizi tatmak için hemen yerinizi ayırtın veya özel siparişleriniz için bize ulaşın."
       inputPlaceholder="E-posta adresinizi girin"
       buttonText="Gönder"
       termsText="Gönder düğmesine tıklayarak gizlilik politikamızı kabul etmiş olursunuz."
@@ -268,9 +254,9 @@ export default function LandingPage() {
             {
               label: "Rezervasyon",              href: "#contact"},
             {
-              label: "Konum",              href: "https://maps.google.com/?q=Ninja+Antwerp"},
+              label: "Konum",              href: "https://maps.google.com/?q=Döner+Palace+Antwerp"},
             {
-              label: "E-posta",              href: "mailto:info@ninjaantwerp.com"},
+              label: "E-posta",              href: "mailto:info@donerpalaceantwerp.com"},
           ],
         },
         {
@@ -282,7 +268,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      bottomLeftText="© 2024 Ninja Antwerp. Tüm Hakları Saklıdır."
+      bottomLeftText="© 2024 Döner Palace. Tüm Hakları Saklıdır."
       bottomRightText="Antwerp, Belçika"
     />
   </div>
