@@ -10,8 +10,8 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 
 
 export const metadata: Metadata = {
-  title: 'Ninja Antwerp - Otantik Japon Mutfağı',
-  description: 'Antwerp\'in kalbinde otantik Japon lezzetlerini keşfedin. Taze sushi, ramen ve geleneksel yemekler modern bir ortamda sunuluyor.',
+  title: 'Döner Palace - Antwerp\'in En İyi Et ve Tavuk Döneri',
+  description: 'Antwerp\'in kalbinde en lezzetli et ve tavuk döneri deneyimini yaşayın. Taptaze malzemelerle hazırlanan geleneksel lezzetler.',
   openGraph: {
     "title": "Ninja Antwerp - Otantik Japon Mutfağı",
     "description": "Antwerp'in kalbinde otantik Japon lezzetlerini keşfedin. Taze sushi, ramen ve geleneksel yemekler modern bir ortamda sunuluyor.",
