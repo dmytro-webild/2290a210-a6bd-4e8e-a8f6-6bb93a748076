@@ -58,23 +58,23 @@ export default function LandingPage() {
       description="Antwerp'in en iyi et ve tavuk döneri için Döner Palace'a hoş geldiniz. Her lokmada geleneksel lezzet, taptaze malzemeler."
       leftCarouselItems={[
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg",          imageAlt: "Et Döner"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg?_wi=1",          imageAlt: "Et Döner"},
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg",          imageAlt: "Tavuk Döner"},
+          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg?_wi=1",          imageAlt: "Tavuk Döner"},
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg",          imageAlt: "Döner Dürüm"},
+          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg?_wi=1",          imageAlt: "Döner Dürüm"},
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg",          imageAlt: "Döner Tabak"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg?_wi=1",          imageAlt: "Döner Tabak"},
       ]}
       rightCarouselItems={[
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg",          imageAlt: "Döner Dürüm"},
+          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg?_wi=2",          imageAlt: "Döner Dürüm"},
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg",          imageAlt: "Et Döner"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg?_wi=2",          imageAlt: "Et Döner"},
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg",          imageAlt: "Tavuk Döner"},
+          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg?_wi=2",          imageAlt: "Tavuk Döner"},
         {
-          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg",          imageAlt: "Döner Tabak"},
+          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg?_wi=2",          imageAlt: "Döner Tabak"},
       ]}
       buttons={[
         {
@@ -154,16 +154,16 @@ export default function LandingPage() {
       products={[
         {
           id: "p1",          brand: "Döner Palace",          name: "Et Döner Porsiyon",          price: "€15.00",          rating: 5,
-          reviewCount: "120",          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg",          imageAlt: "Et Döner Porsiyon"},
+          reviewCount: "120",          imageSrc: "https://img.b2bpic.net/free-photo/delicious-dner-kebab-with-meat-vegetables-served-table_140725-5024.jpg?_wi=3",          imageAlt: "Et Döner Porsiyon"},
         {
           id: "p2",          brand: "Döner Palace",          name: "Tavuk Döner Porsiyon",          price: "€13.00",          rating: 4,
-          reviewCount: "85",          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg",          imageAlt: "Tavuk Döner Porsiyon"},
+          reviewCount: "85",          imageSrc: "https://img.b2bpic.net/free-photo/chicken-dner-kebab-with-french-fries_140725-5028.jpg?_wi=3",          imageAlt: "Tavuk Döner Porsiyon"},
         {
           id: "p3",          brand: "Döner Palace",          name: "Et Döner Dürüm",          price: "€12.00",          rating: 5,
-          reviewCount: "95",          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg",          imageAlt: "Et Döner Dürüm"},
+          reviewCount: "95",          imageSrc: "https://img.b2bpic.net/free-photo/top-view-delicious-chicken-doner_23-2148419641.jpg?_wi=3",          imageAlt: "Et Döner Dürüm"},
         {
           id: "p4",          brand: "Döner Palace",          name: "Tavuk Döner Dürüm",          price: "€10.00",          rating: 5,
-          reviewCount: "70",          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg",          imageAlt: "Tavuk Döner Dürüm"},
+          reviewCount: "70",          imageSrc: "https://img.b2bpic.net/free-photo/delicious-doner-with-chicken-served-with-fresh-salad_23-2148780287.jpg?_wi=3",          imageAlt: "Tavuk Döner Dürüm"},
       ]}
       title="Menümüz: Et ve Tavuk Döner"
       description="Sadece iki çeşit dönerimiz var, ama her biri damaklarda iz bırakacak lezzette."
